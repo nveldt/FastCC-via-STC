@@ -15,7 +15,7 @@ The files “read-pace-data.jl” and “read-gr.jl” in the data folder can be
 
 ## Running KaPoCE
 
-In order to run KaPoCE, this software needs to be separately downloaded and installed which may take a significant amount of configuration. A copy of the code with its original license is contained in the folder “include/cluster_editing”. This includes a few changes to the make files that were needed to run it on our platform. These changes and this version of the code may not work for you.
+To run KaPoCE, this software needs to be separately downloaded and installed which may take a significant amount of configuration.
 
 The PACE challenge graphs should be downloaded and installed in the “include/cluster_editing/instances” folder.
 
@@ -25,6 +25,7 @@ The files “run_kapoce_exact.jl” and “run_kapoce_heuristics.jl” in the fo
 
 illustrate how this software was run using a Julia wrapper. These will not work unless you download and install KaPoCE. 
 
+Results from running KaPoCE are contained in the heur_out.zip file, which should be unzipped if you want to see or plot results.
 
 ## Running Louvain and MFP
 
