@@ -28,8 +28,6 @@ snaps = [
     "roadNet-CA.mat"
     "roadNet-PA.mat"
     "roadNet-TX.mat"
-    "simple-com-Orkut.mat"
-    "simple-snap-graphs.jl"
     "soc-Epinions1.mat"
     "soc-LiveJournal1.mat"
     "soc-Slashdot0811.mat"
@@ -74,3 +72,16 @@ for graph = snaps
 
     @assert(SparseArrays.issymmetric(A))
 end
+
+
+
+## try this
+
+
+using Colors
+
+x = vec([1 2 3 4])
+
+f = plot(x,x)
+scatter!(f,x,x, color = :green, label = "legend", legend_background_color = colorant"rgba(255,255,255,0.6)")
+
